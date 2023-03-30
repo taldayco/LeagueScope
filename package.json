@@ -1,0 +1,51 @@
+{
+  "name": "league-scope",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "vercel-build": "prisma generate && prisma migrate deploy && next build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@prisma/client": "4.11.0-dev.19",
+    "d3": "^7.8.3",
+    "formik": "^2.2.9",
+    "framer-motion": "^9.0.3",
+    "ky": "^0.33.2",
+    "lodash": "^4.17.21",
+    "next": "13.1.6",
+    "next-env": "^1.1.1",
+    "next-seo": "^5.15.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "request-ip": "^3.3.0",
+    "swr": "^2.0.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/request-ip": "^0.0.37",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "postcss": "^8.4.21",
+    "prisma": "4.11.0-dev.19",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^4.9.5"
+  }
+}
