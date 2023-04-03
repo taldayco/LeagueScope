@@ -95,12 +95,12 @@ export default function Home() {
   }, [selectedRegion])
 
   return (
-    <VStack minHeight="60vh" justify="center" spacing="8">
+    <VStack minHeight="80vh" justify="center" spacing="8">
       <Heading className="text-6xl font-bold">
         LeagueScope
       </Heading>
       <Box border="2px" borderColor="black" borderRadius="xl" p="2" w="600px" mb="4">
-        <Input placeholder="Search Player Database" variant="unstyled" />
+        <Input placeholder="Search Team or Player Database" variant="unstyled" />
       </Box>
       <HStack spacing="4" mt="6">
         {regions.map((region) => (
@@ -122,6 +122,11 @@ export default function Home() {
         ))}
       </HStack>
       <Box w="600px" mt="6">
+        <button className="w-full h-10 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none">
+          Explore Team List
+        </button>
+      </Box>
+      {/* <Box w="600px" mt="6">
         {teams.length > 0
           ? <ul>
             {teams.map((team) => (
@@ -130,7 +135,7 @@ export default function Home() {
           </ul>
           : <p>No teams found in selected region</p>
         }
-      </Box>
+      </Box> */}
     </VStack>
   )
 }
