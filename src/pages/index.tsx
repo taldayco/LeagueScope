@@ -1,141 +1,82 @@
 import {
-  Box, Heading, HStack, Input, VStack
+  Box, Heading, HStack,   Image,
+  Input, Spacer,
+  VStack
 } from '@chakra-ui/react'
 import * as d3 from 'd3'
 import { useEffect, useState } from 'react'
 
-interface CurrentVideogame {
-  id: number;
-  name: string;
-  slug: string;
-}
-
-interface Player {
-  age: number | null;
-  birthday: string | null;
-  first_name: string;
-  id: number;
-  image_url: string | null;
-  last_name: string;
-  modified_at: string;
-  name: string;
-  nationality: string;
-  role: string;
-  slug: string;
-}
-
-interface Team {
-  acronym: string;
-  current_videogame: CurrentVideogame;
-  id: number;
-  image_url: string;
-  location: string;
-  modified_at: string;
-  name: string;
-  players: Player[];
-  slug: string;
-}
-
-const regions = ['NA', 'EUW', 'EUN', 'KR', 'BR', 'JP', 'RU', 'OCE', 'TR', 'LAN', 'LAS', 'PH', 'SG', 'TH', 'TW', 'VN', 'CN', 'OT']
-const top_3 = ['1', '2', '3']
-
-interface CountryToRegion {
-  [key: string]: string;
-}
-
-const countryToRegion: CountryToRegion = {
-  'PT': 'EUW',
-  'PL': 'EUN',
-  'GR': 'EUW',
-  'US': 'NA',
-  'CN': 'CN',
-  'SE': 'EUN',
-  'ES': 'EUW',
-  'MY': 'SG',
-  'BE': 'EUW',
-  'JP': 'JP',
-  'TN': 'EUN',
-  'SA': 'EUW',
-  'BG': 'EUW',
-  'BA': 'EUN',
-  'SI': 'EUW',
-  'AR': 'LAS',
-  'CA': 'NA',
-  'TW': 'TW',
-  'DO': 'LAN',
-  'AU': 'OCE',
-  'KR': 'KR',
-  'MX': 'LAN',
-  'TH': 'TH',
-  'TR': 'TR',
-  'FR': 'EUW',
-  '': 'OT',
-}
+const leagues = ['LCS', 'LEC', 'LCK', 'LPL', 'PCS', 'VCS', 'CBLOL', 'LJL', 'LLA']
+const top_2 = ['1', '2']
 
 export default function Home() {
-  const [selectedRegion, setSelectedRegion] = useState<string>(regions[0])
-  const [teams, setTeams] = useState<Team[]>([])
+  const [selectedLeague, setSelectedLeague] = useState<string>(leagues[0])
+  const [leagueImages, setLeagueImages] = useState<{ [key: string]: string }>({})
 
   useEffect(() => {
-    fetch('/Teams/List_lol_teams.json')
-      .then(response => response.json())
-      .then((data: Team[]) => {
-        console.log('data:', data)
-        const filteredTeams = data.filter((team) => {
-          const location = team.location
-          const region = countryToRegion[location]
-          if (!region) {
-            console.log(`Team ${team.name} (${location}) is not included in the filtered teams`)
-          }
-          return region === selectedRegion
-        })
-        setTeams(filteredTeams)
-      })
-      .catch(error => console.error(error))
-  }, [selectedRegion])
+    const fetchLeagueImages = async () => {
+      const response = await fetch('/Data/Tier_One_Leagues.json')
+      const data = await response.json()
+      const images = leagues.reduce((acc: { [key: string]: string }, league: string) => {
+        const leagueData = data.find((d: { [key: string]: string }) => d.League === league)
+        if (leagueData) {
+          acc[league + '1'] = leagueData[league + '1']
+          acc[league + '2'] = leagueData[league + '2']
+        }
+        return acc
+      }, {})
+      setLeagueImages(images)
+    }
+    fetchLeagueImages()
+  }, [])
 
   return (
     <VStack minHeight="80vh" justify="center" spacing="8">
-      <Heading className="text-6xl font-bold">
+      <Heading className="text-6xl font-bold" mt={20}>
         LeagueScope
       </Heading>
       <Box border="2px" borderColor="black" borderRadius="xl" p="2" w="600px" mb="4">
         <Input placeholder="Search Team or Player Database" variant="unstyled" />
       </Box>
       <HStack spacing="4" mt="6">
-        {regions.map((region) => (
+        {leagues.map((league, index) => (
           <button
-            key={region}
-            className={`w-10 h-9 font-medium rounded-md text-sm ${
-              selectedRegion === region
+            key={league}
+            className={`w-16 h-10 font-medium rounded-md text-sm ${
+              selectedLeague === league
                 ? 'bg-gray-400 text-gray-800 focus:outline-none'
                 : 'bg-gray-300 text-gray-800 hover:bg-gray-400 focus:outline-none'}`}
-            onClick={() => setSelectedRegion(region)}
+            onClick={() => setSelectedLeague(league)}
           >
-            {region}
+            {league}
           </button>
         ))}
       </HStack>
-      <HStack spacing="4" mt="4">
-        {top_3.map((top) => (
-          <button key={top} className="w-48 h-48 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none"></button>
-        ))}
+      <HStack spacing="14" mt="4">
+        {top_2.map((top, index) => {
+          const hasFirstImage = leagueImages[selectedLeague + '1']
+          const hasSecondImage = leagueImages[selectedLeague + '2']
+
+          if (index === 1 && !(hasFirstImage && hasSecondImage)) {
+            return null // skip rendering the second button
+          }
+          return (
+            <button
+              key={top}
+              className={`w-48 h-48 focus:outline-none ${index === 1 && !(hasFirstImage && hasSecondImage) ? 'invisible' : ''}`}
+            >
+              {index === 0 && hasFirstImage && <Image src={leagueImages[selectedLeague + '1']} alt={`${selectedLeague} 1`} />}
+              {index === 1 && hasSecondImage && <Image src={leagueImages[selectedLeague + '2']} alt={`${selectedLeague} 2`} />}
+            </button>
+          )
+        })}
       </HStack>
-      <Box w="600px" mt="6">
+      <Spacer />
+      <Box w="600px">
         <button className="w-full h-10 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none">
           Explore Team List
         </button>
       </Box>
-      {/* <Box w="600px" mt="6">
-        {teams.length > 0
-          ? <ul>
-            {teams.map((team) => (
-              <li key={team.id}>{team.acronym}</li>
-            ))}
-          </ul>
-          : <p>No teams found in selected region</p>
-        }
-      </Box> */}
     </VStack>
   )
 }
