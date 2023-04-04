@@ -1,6 +1,6 @@
 import {
-  Box, Heading, HStack,   Image,
-  Input, Spacer,
+  Box, Heading, HStack, Image,
+  Input, Link,  Spacer,
   VStack
 } from '@chakra-ui/react'
 import * as d3 from 'd3'
@@ -12,9 +12,10 @@ const top_2 = ['1', '2']
 export default function Home() {
   const [selectedLeague, setSelectedLeague] = useState<string>(leagues[0])
   const [leagueImages, setLeagueImages] = useState<{ [key: string]: string }>({})
+  const [TeamNames, setTeamNames] = useState<{ [key: string]: { Spring: string, Summer: string } }>({})
 
   useEffect(() => {
-    const fetchLeagueImages = async () => {
+    const fetchLeagueData = async () => {
       const response = await fetch('/Data/Tier_One_Leagues.json')
       const data = await response.json()
       const images = leagues.reduce((acc: { [key: string]: string }, league: string) => {
@@ -26,8 +27,20 @@ export default function Home() {
         return acc
       }, {})
       setLeagueImages(images)
+
+      const teamNames = leagues.reduce((acc: { [key: string]: { Spring: string; Summer: string } }, league: string) => {
+        const leagueData = data.find((d: { [key: string]: string }) => d.League === league)
+        if (leagueData) {
+          acc[league] = {
+            Spring: leagueData.Spring,
+            Summer: leagueData.Summer,
+          }
+        }
+        return acc
+      }, {})
+      setTeamNames(teamNames)
     }
-    fetchLeagueImages()
+    fetchLeagueData()
   }, [])
 
   return (
@@ -39,7 +52,7 @@ export default function Home() {
         <Input placeholder="Search Team or Player Database" variant="unstyled" />
       </Box>
       <HStack spacing="4" mt="6">
-        {leagues.map((league, index) => (
+        {leagues.map((league) => (
           <button
             key={league}
             className={`w-16 h-10 font-medium rounded-md text-sm ${
@@ -61,13 +74,17 @@ export default function Home() {
             return null // skip rendering the second button
           }
           return (
-            <button
+            <Link
               key={top}
-              className={`w-48 h-48 focus:outline-none ${index === 1 && !(hasFirstImage && hasSecondImage) ? 'invisible' : ''}`}
+              href={`/${selectedLeague}/${index === 0 ? TeamNames[selectedLeague]?.Spring : TeamNames[selectedLeague]?.Summer}`}
             >
-              {index === 0 && hasFirstImage && <Image src={leagueImages[selectedLeague + '1']} alt={`${selectedLeague} 1`} />}
-              {index === 1 && hasSecondImage && <Image src={leagueImages[selectedLeague + '2']} alt={`${selectedLeague} 2`} />}
-            </button>
+              <button
+                className={`w-48 h-48 focus:outline-none ${index === 1 && !(hasFirstImage && hasSecondImage) ? 'invisible' : ''}`}
+              >
+                {index === 0 && hasFirstImage && <Image src={leagueImages[selectedLeague + '1']} alt={`${selectedLeague} 1`} />}
+                {index === 1 && hasSecondImage && <Image src={leagueImages[selectedLeague + '2']} alt={`${selectedLeague} 2`} />}
+              </button>
+            </Link>
           )
         })}
       </HStack>
