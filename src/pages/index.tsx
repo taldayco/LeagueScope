@@ -89,9 +89,11 @@ export default function Home() {
 
       <Spacer />
       <Box w="600px">
-        <button className="w-full h-10 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none">
-          View All Active Teams
-        </button>
+        <Link href={selectedLeague}>
+          <button className="w-full h-10 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none">
+            View Active Teams In League
+          </button>
+        </Link>
       </Box>
     </VStack>
   )
