@@ -7,7 +7,7 @@ import * as d3 from 'd3'
 import { useEffect, useState } from 'react'
 
 const leagues = ['LCS', 'LEC', 'LCK', 'LPL', 'PCS', 'VCS', 'CBLOL', 'LJL', 'LLA']
-const top_2 = ['1', '2']
+const league_and_winners = ['0', '1', '2']
 
 export default function Home() {
   const [selectedLeague, setSelectedLeague] = useState<string>(leagues[0])
@@ -21,6 +21,7 @@ export default function Home() {
       const images = leagues.reduce((acc: { [key: string]: string }, league: string) => {
         const leagueData = data.find((d: { [key: string]: string }) => d.League === league)
         if (leagueData) {
+          acc[league + '0'] = leagueData[league + '0']
           acc[league + '1'] = leagueData[league + '1']
           acc[league + '2'] = leagueData[league + '2']
         }
@@ -65,33 +66,31 @@ export default function Home() {
           </button>
         ))}
       </HStack>
-      <HStack spacing="14" mt="4">
-        {top_2.map((top, index) => {
+      <HStack spacing="24" mt="4">
+        {league_and_winners.map((top, index) => {
+          const hasZerothImage = leagueImages[selectedLeague + '0']
           const hasFirstImage = leagueImages[selectedLeague + '1']
           const hasSecondImage = leagueImages[selectedLeague + '2']
 
-          if (index === 1 && !(hasFirstImage && hasSecondImage)) {
-            return null // skip rendering the second button
-          }
+          const href = index === 0 ? `/${selectedLeague}` : index === 1 ? `/${selectedLeague}/${TeamNames[selectedLeague]?.Spring}` : `/${selectedLeague}/${TeamNames[selectedLeague]?.Summer}`
+
           return (
             <Link
               key={top}
-              href={`/${selectedLeague}/${index === 0 ? TeamNames[selectedLeague]?.Spring : TeamNames[selectedLeague]?.Summer}`}
+              href={href}
             >
-              <button
-                className={`w-48 h-48 focus:outline-none ${index === 1 && !(hasFirstImage && hasSecondImage) ? 'invisible' : ''}`}
-              >
-                {index === 0 && hasFirstImage && <Image src={leagueImages[selectedLeague + '1']} alt={`${selectedLeague} 1`} />}
-                {index === 1 && hasSecondImage && <Image src={leagueImages[selectedLeague + '2']} alt={`${selectedLeague} 2`} />}
-              </button>
+              {index === 0 && hasZerothImage && <button className="w-48 h-48 focus:outline-none"><Image className="league-image" src={leagueImages[selectedLeague + '0']} alt={`${selectedLeague} 0`} /></button>}
+              {index === 1 && hasFirstImage && <button className="w-48 h-48 focus:outline-none"><Image className="league-image" src={leagueImages[selectedLeague + '1']} alt={`${selectedLeague} 1`} /></button>}
+              {index === 2 && hasSecondImage && <button className="w-48 h-48 focus:outline-none"><Image className="league-image" src={leagueImages[selectedLeague + '2']} alt={`${selectedLeague} 2`} /></button>}
             </Link>
           )
         })}
       </HStack>
+
       <Spacer />
       <Box w="600px">
         <button className="w-full h-10 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none">
-          Explore Team List
+          View All Active Teams
         </button>
       </Box>
     </VStack>
