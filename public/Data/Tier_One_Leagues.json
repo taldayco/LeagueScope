@@ -1,72 +1,72 @@
 [
   {
     "League": "LCK",
-    "Region": "South Korea",
-    "Spring": "T1 (2022)",
+    "Region": "South_Korea",
+    "Spring": "T1",
     "LCK1": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/T1_logo.svg/330px-T1_logo.svg.png",
-    "Summer": "Gen.G  (2022)",
+    "Summer": "Gen.G",
     "LCK2": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Gen.G_Logo.svg/330px-Gen.G_Logo.svg.png"
   },
   {
     "League": "LPL",
     "Region": "China[CN]",
-    "Spring": "Royal Never Give Up (2022)",
+    "Spring": "Royal_Never_Give_Up",
     "LPL1": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/RNG_logo.svg/330px-RNG_logo.svg.png",
-    "Summer": "JD Gaming (2022)",
+    "Summer": "JD_Gaming",
     "LPL2": "https://upload.wikimedia.org/wikipedia/en/7/7d/JD_Gaming_logo.png"
   },
   {
     "League": "LEC",
     "Region": "Europe, the Middle East and Africa",
-    "Spring": "G2 Esports (2022)",
+    "Spring": "G2_Esports",
     "LEC1": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Esports_organization_G2_Esports_logo.svg/330px-Esports_organization_G2_Esports_logo.svg.png",
-    "Summer": "Rogue (2022)",
+    "Summer": "Rogue",
     "LEC2":"https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Rogue_logo.svg/330px-Rogue_logo.svg.png"
   },
   {
     "League": "LCS",
     "Region": "North America[NA]",
-    "Spring": "Evil Geniuses (2022)",
+    "Spring": "Evil_Geniuses",
     "LCS1": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Evil_geniuses_logo.svg/125px-Evil_geniuses_logo.svg.png",
-    "Summer": "Cloud9 (2022)",
+    "Summer": "Cloud9",
     "LCS2": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Cloud9_logo.svg/330px-Cloud9_logo.svg.png"
   },
   {
     "League": "PCS",
     "Region": "Taiwan, Hong Kong, Macau, Southeast Asia and Oceania[SEA]",
-    "Spring": "PSG Talon (2022)",
+    "Spring": "PSG_Talon",
     "PCS1": "https://upload.wikimedia.org/wikipedia/en/2/25/PSG_Talon_logo.png",
-    "Summer": "CTBC Flying Oyster (2022)",
+    "Summer": "CTBC_Flying_Oyster",
     "PCS2": "https://upload.wikimedia.org/wikipedia/en/6/66/CTBC_Flying_Oyster_logo.png"
   },
   {
     "League": "VCS",
     "Region": "Vietnam[VN]",
-    "Spring": "GAM Esports (2022)",
+    "Spring": "GAM_Esports",
     "VCS1": "https://upload.wikimedia.org/wikipedia/en/0/00/GIGABYTE_Marines_logo.png",
-    "Summer": "GAM Esports (2022)"
+    "Summer": "GAM_Esports"
   },
   {
     "League": "CBLOL",
     "Region": "Brazil",
-    "Spring": "RED Canids (2022)",
+    "Spring": "RED_Canids",
     "CBLOL1": "https://upload.wikimedia.org/wikipedia/pt/d/df/RED_Canids_Kalunga.png",
-    "Summer": "LOUD (2022)",
+    "Summer": "LOUD",
     "CBLOL2": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/LOUD_logo.svg/330px-LOUD_logo.svg.png"
   },
   {
     "League": "LJL",
     "Region": "Japan",
-    "Spring": "DetonatioN FocusMe (2022)",
+    "Spring": "DetonatioN_FocusMe",
     "LJL1": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/DetonatioN_FocusMe_logo.png/330px-DetonatioN_FocusMe_logo.png",
-    "Summer": "DetonatioN FocusMe (2022)"
+    "Summer": "DetonatioN_FocusMe"
   },
   {
     "League": "LLA",
-    "Region": "Latin America[LA]",
-    "Spring": "Team Aze (2022)",
+    "Region": "Latin_America[LA]",
+    "Spring": "Team_Aze",
     "LLA1": "data:image/png;base64,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",
-    "Summer": "Isurus (2022)",
+    "Summer": "Isurus",
     "LLA2": "data:image/png;base64,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"
   }
 ]
