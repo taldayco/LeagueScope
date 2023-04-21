@@ -41,7 +41,78 @@
       "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
     }
   ],
-  "standings_Data": [],
+  "standings_Data": [
+    {
+      "standing": "1",
+      "team": "Team Liquid",
+      "games": "14 - 4",
+      "wr_games": "78%",
+      "str": "3W"
+    },
+    {
+      "standing": "2",
+      "team": "Cloud9",
+      "games": "13 - 5",
+      "wr_games": "72%",
+      "str": "2L"
+    },
+    {
+      "standing": "3",
+      "team": "100 Thieves",
+      "games": "12 - 6",
+      "wr_games": "67%",
+      "str": "1L"
+    },
+    {
+      "standing": "4",
+      "team": "Evil Geniuses",
+      "games": "9 - 9",
+      "wr_games": "50%",
+      "str": "1W"
+    },
+    {
+      "standing": "5",
+      "team": "FlyQuest",
+      "games": "9 - 9",
+      "wr_games": "50%",
+      "str": "1W"
+    },
+    {
+      "standing": "6",
+      "team": "Golden Guardians",
+      "games": "9 - 9",
+      "wr_games": "50%",
+      "str": "2W"
+    },
+    {
+      "standing": "7",
+      "team": "Dignitas",
+      "games": "8 - 10",
+      "wr_games": "44%",
+      "str": "1W"
+    },
+    {
+      "standing": "8",
+      "team": "Counter Logic Gaming",
+      "games": "6 - 12",
+      "wr_games": "33%",
+      "str": "2L"
+    },
+    {
+      "standing": "9",
+      "team": "TSM",
+      "games": "5 - 13",
+      "wr_games": "28%",
+      "str": "1L"
+    },
+    {
+      "standing": "10",
+      "team": "Immortals",
+      "games": "5 - 13",
+      "wr_games": "28%",
+      "str": "1L"
+    }
+  ],
   "matchup_Dates": {
     "Week 1": [
       {

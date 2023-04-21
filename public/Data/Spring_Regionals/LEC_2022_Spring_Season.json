@@ -41,7 +41,78 @@
       "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
     }
   ],
-  "standings_Data": [],
+  "standings_Data": [
+    {
+      "standing": "1",
+      "team": "Rogue",
+      "games": "14 - 4",
+      "wr_games": "78%",
+      "str": "2W"
+    },
+    {
+      "standing": "2",
+      "team": "Fnatic",
+      "games": "13 - 5",
+      "wr_games": "72%",
+      "str": "1W"
+    },
+    {
+      "standing": "3",
+      "team": "Misfits Gaming",
+      "games": "12 - 6",
+      "wr_games": "67%",
+      "str": "1L"
+    },
+    {
+      "standing": "4",
+      "team": "G2 Esports",
+      "games": "11 - 7",
+      "wr_games": "61%",
+      "str": "1L"
+    },
+    {
+      "standing": "5",
+      "team": "Excel",
+      "games": "9 - 9",
+      "wr_games": "50%",
+      "str": "1L"
+    },
+    {
+      "standing": "6",
+      "team": "Team Vitality",
+      "games": "9 - 9",
+      "wr_games": "50%",
+      "str": "1W"
+    },
+    {
+      "standing": "7",
+      "team": "MAD Lions",
+      "games": "8 - 10",
+      "wr_games": "44%",
+      "str": "3W"
+    },
+    {
+      "standing": "8",
+      "team": "SK Gaming",
+      "games": "7 - 11",
+      "wr_games": "39%",
+      "str": "1W"
+    },
+    {
+      "standing": "9",
+      "team": "Team BDS",
+      "games": "4 - 14",
+      "wr_games": "22%",
+      "str": "4L"
+    },
+    {
+      "standing": "10",
+      "team": "Astralis",
+      "games": "3 - 15",
+      "wr_games": "17%",
+      "str": "3L"
+    }
+  ],
   "matchup_Dates": {
     "Week 1": [
       {

@@ -41,7 +41,78 @@
       "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
     }
   ],
-  "standings_Data": [],
+  "standings_Data": [
+    {
+      "standing": "1",
+      "team": "G2 Esports",
+      "games": "15 - 3",
+      "wr_games": "83%",
+      "str": "8W"
+    },
+    {
+      "standing": "2",
+      "team": "Fnatic",
+      "games": "13 - 5",
+      "wr_games": "72%",
+      "str": "1L"
+    },
+    {
+      "standing": "3",
+      "team": "Origen",
+      "games": "13 - 5",
+      "wr_games": "72%",
+      "str": "1L"
+    },
+    {
+      "standing": "4",
+      "team": "MAD Lions",
+      "games": "11 - 7",
+      "wr_games": "61%",
+      "str": "1W"
+    },
+    {
+      "standing": "5",
+      "team": "Misfits Gaming",
+      "games": "10 - 8",
+      "wr_games": "56%",
+      "str": "1L"
+    },
+    {
+      "standing": "6",
+      "team": "Rogue",
+      "games": "9 - 9",
+      "wr_games": "50%",
+      "str": "4L"
+    },
+    {
+      "standing": "7",
+      "team": "Excel",
+      "games": "7 - 11",
+      "wr_games": "39%",
+      "str": "4L"
+    },
+    {
+      "standing": "8",
+      "team": "Schalke 04",
+      "games": "6 - 12",
+      "wr_games": "33%",
+      "str": "1W"
+    },
+    {
+      "standing": "9",
+      "team": "SK Gaming",
+      "games": "4 - 14",
+      "wr_games": "22%",
+      "str": "2W"
+    },
+    {
+      "standing": "10",
+      "team": "Team Vitality",
+      "games": "2 - 16",
+      "wr_games": "11%",
+      "str": "1W"
+    }
+  ],
   "matchup_Dates": {
     "Week 1": [
       {
