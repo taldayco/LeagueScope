@@ -3,7 +3,6 @@ import {
   Input, Link,  Spacer,
   VStack
 } from '@chakra-ui/react'
-import * as d3 from 'd3'
 import { useEffect, useState } from 'react'
 
 const leagues = ['LCS', 'LEC', 'LCK', 'LPL', 'PCS', 'VCS', 'CBLOL', 'LJL', 'LLA']
@@ -89,9 +88,9 @@ export default function Home() {
 
       <Spacer />
       <Box w="600px">
-        <Link href={selectedLeague}>
+        <Link href={selectedLeague + '/all_teams'}>
           <button className="w-full h-10 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none">
-            View Active Teams In League
+            View All Teams In {selectedLeague}
           </button>
         </Link>
       </Box>

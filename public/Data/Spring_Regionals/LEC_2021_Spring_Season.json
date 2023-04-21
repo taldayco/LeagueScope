@@ -1,0 +1,1528 @@
+{
+  "participant_Data": [
+    {
+      "teamName": "Astralis",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "Excel",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "Schalke 04",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "Fnatic",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "G2 Esports",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "MAD Lions",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "Misfits Gaming",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "Rogue",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "SK Gaming",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    },
+    {
+      "teamName": "Team Vitality",
+      "image_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+    }
+  ],
+  "standings_Data": [],
+  "matchup_Dates": {
+    "Week 1": [
+      {
+        "patch": "11.1",
+        "date": "2021,1,22,17,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,22,18,00",
+        "team1": "AST⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,22,19,00",
+        "team1": "RGE⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,22,20,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠S04",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,22,21,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠FNC",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,23,16,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,23,17,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠MSF",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,23,18,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,23,19,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,23,20,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,24,16,00",
+        "team1": "AST⁠⁠",
+        "team2": "⁠⁠VIT",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,24,17,00",
+        "team1": "RGE⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,24,18,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,24,19,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠S04",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,24,20,00",
+        "team1": "XL⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "0-1"
+      }
+    ],
+    "Week 2": [
+      {
+        "patch": "11.1",
+        "date": "2021,1,29,17,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,29,18,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,29,19,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,29,20,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,29,21,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠FNC",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,30,16,00",
+        "team1": "XL⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,30,17,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,30,18,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,30,19,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,1,30,20,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "0-1"
+      }
+    ],
+    "Week 3": [
+      {
+        "patch": "11.1",
+        "date": "2021,2,05,17,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,05,18,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,05,19,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,05,20,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,05,21,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,06,16,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠MSF",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,06,17,00",
+        "team1": "XL⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,06,18,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,06,19,00",
+        "team1": "RGE⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,06,20,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠FNC",
+        "score": "0-1"
+      }
+    ],
+    "Week 4": [
+      {
+        "patch": "11.1",
+        "date": "2021,2,12,17,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,12,18,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,12,19,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,12,20,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,12,21,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,13,16,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,13,17,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,13,18,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,13,21,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,13,22,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      }
+    ],
+    "Week 5": [
+      {
+        "patch": "11.1",
+        "date": "2021,2,19,17,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,19,18,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,19,19,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,19,20,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,19,21,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠FNC",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,20,16,00",
+        "team1": "XL⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,20,17,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,20,18,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,20,19,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,20,20,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "0-1"
+      }
+    ],
+    "Week 6": [
+      {
+        "patch": "11.1",
+        "date": "2021,2,26,17,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,26,18,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,26,19,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,26,20,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,26,21,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,27,16,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠MSF",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,27,17,00",
+        "team1": "XL⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,27,18,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,27,19,00",
+        "team1": "RGE⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,2,27,20,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠FNC",
+        "score": "1-0"
+      }
+    ],
+    "Week 7": [
+      {
+        "patch": "11.1",
+        "date": "2021,3,05,17,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,05,18,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,05,19,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,05,20,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,05,21,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,06,16,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,06,17,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,06,18,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,06,19,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,06,20,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      }
+    ],
+    "Week 8": [
+      {
+        "patch": "11.1",
+        "date": "2021,3,12,17,00",
+        "team1": "RGE⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,12,18,00",
+        "team1": "AST⁠⁠",
+        "team2": "⁠⁠VIT",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,12,19,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠S04",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,12,20,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,12,21,00",
+        "team1": "XL⁠⁠",
+        "team2": "⁠⁠G2",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,13,16,00",
+        "team1": "AST⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,13,17,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠S04",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,13,18,00",
+        "team1": "RGE⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,13,19,00",
+        "team1": "MSF⁠⁠",
+        "team2": "⁠⁠FNC",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,13,20,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠MAD",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,14,16,00",
+        "team1": "VIT⁠⁠",
+        "team2": "⁠⁠MSF",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,14,17,00",
+        "team1": "S04⁠⁠",
+        "team2": "⁠⁠XL",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,14,18,00",
+        "team1": "MAD⁠⁠",
+        "team2": "⁠⁠AST",
+        "score": "0-1"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,14,19,00",
+        "team1": "G2⁠⁠",
+        "team2": "⁠⁠SK",
+        "score": "1-0"
+      },
+      {
+        "patch": "11.1",
+        "date": "2021,3,14,20,00",
+        "team1": "FNC⁠⁠",
+        "team2": "⁠⁠RGE",
+        "score": "0-1"
+      }
+    ]
+  },
+  "matchup_Data": [
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "G2",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Wunder"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "AST",
+      "red_side_g1": "SK",
+      "side_selector_g1": "AST",
+      "mvp_g1": "Treatz"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "XL",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Larssen"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "S04",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Neon"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Vetheo"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "S04",
+      "red_side_g1": "XL",
+      "side_selector_g1": "S04",
+      "mvp_g1": "Patrik"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Comp"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "AST",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Armut"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "SK",
+      "red_side_g1": "G2",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Rekkles"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "FNC",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Larssen"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "AST",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "AST",
+      "mvp_g1": "nukeduck"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "SK",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Hans sama"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Razork"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "FNC",
+      "red_side_g1": "S04",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Selfmade"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "XL",
+      "red_side_g1": "G2",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Mikyx"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "XL",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Carzzy"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "S04",
+      "red_side_g1": "SK",
+      "side_selector_g1": "S04",
+      "mvp_g1": "Gilius"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "G2",
+      "red_side_g1": "AST",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Jankos"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Hans sama"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "FNC",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Selfmade"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "AST",
+      "red_side_g1": "XL",
+      "side_selector_g1": "AST",
+      "mvp_g1": "Czekolad"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "SK",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Treatz"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Hans sama"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "S04",
+      "red_side_g1": "G2",
+      "side_selector_g1": "S04",
+      "mvp_g1": "BrokenBlade"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Kaiser"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "XL",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Patrik"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "SK",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Treatz"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "G2",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Rekkles"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "S04",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "S04",
+      "mvp_g1": "Abbedagge"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "AST",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "AST",
+      "mvp_g1": "Nisqy"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "S04",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "BrokenBlade"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "XL",
+      "red_side_g1": "SK",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Kryze"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Armut"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "AST",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Odoamne"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "FNC",
+      "red_side_g1": "G2",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Bwipo"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "AST",
+      "red_side_g1": "S04",
+      "side_selector_g1": "AST",
+      "mvp_g1": "MagiFelix"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "XL",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Kryze"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "G2",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Rekkles"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Hans Sama"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "SK",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Bwipo"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "SK",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Jezu"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "AST",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Kobbe"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "S04",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "S04",
+      "mvp_g1": "Armut"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "G2",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Rekkles"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "XL",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Upset"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "S04",
+      "red_side_g1": "SK",
+      "side_selector_g1": "SK",
+      "mvp_g1": "TynX"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "XL",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Elyoya"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "AST",
+      "red_side_g1": "G2",
+      "side_selector_g1": "AST",
+      "mvp_g1": "Caps"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Trymbi"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Crownshot"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "XL",
+      "red_side_g1": "AST",
+      "side_selector_g1": "XL",
+      "mvp_g1": "MagiFelix"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MSF",
+      "red_side_g1": "SK",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Jenax"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Larssen"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Armut"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "G2",
+      "red_side_g1": "S04",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Mikyx"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "SK",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Treatz"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "XL",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Razork"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "G2",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Mikyx"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "S04",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Odoamne"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "FNC",
+      "red_side_g1": "AST",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Selfmade"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "S04",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "S04",
+      "mvp_g1": "HiRit"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "SK",
+      "red_side_g1": "XL",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Jenax"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Armut"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "AST",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "AST",
+      "mvp_g1": "Hans sama"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "G2",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Jankos"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "S04",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Elyoya"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "AST",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "AST",
+      "mvp_g1": "Razork"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "G2",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Caps"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "SK",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Crownshot"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "XL",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Upset"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "S04",
+      "red_side_g1": "AST",
+      "side_selector_g1": "S04",
+      "mvp_g1": "Abbedagge"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "XL",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "Crownshot"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "FNC",
+      "red_side_g1": "SK",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Upset"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "G2",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Rekkles"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Odoamne"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "SK",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Inspired"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "AST",
+      "side_selector_g1": "VIT",
+      "mvp_g1": "WhiteKnight"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "S04",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "S04",
+      "mvp_g1": "BrokenBlade"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Vetheo"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "G2",
+      "red_side_g1": "XL",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Patrik"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "SK",
+      "red_side_g1": "AST",
+      "side_selector_g1": "SK",
+      "mvp_g1": "Jeskla"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "S04",
+      "red_side_g1": "VIT",
+      "side_selector_g1": "S04",
+      "mvp_g1": "LIMIT"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "XL",
+      "red_side_g1": "RGE",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Patrik"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "FNC",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "FNC",
+      "mvp_g1": "Kobbe"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "MAD",
+      "red_side_g1": "G2",
+      "side_selector_g1": "MAD",
+      "mvp_g1": "Elyoya"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "VIT",
+      "red_side_g1": "MSF",
+      "side_selector_g1": "MSF",
+      "mvp_g1": "Crownshot"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "XL",
+      "red_side_g1": "S04",
+      "side_selector_g1": "XL",
+      "mvp_g1": "Abbedagge"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "AST",
+      "red_side_g1": "MAD",
+      "side_selector_g1": "AST",
+      "mvp_g1": "MagiFelix"
+    },
+    {
+      "score": "1 - 0",
+      "blue_side_g1": "G2",
+      "red_side_g1": "SK",
+      "side_selector_g1": "G2",
+      "mvp_g1": "Jankos"
+    },
+    {
+      "score": "0 - 1",
+      "blue_side_g1": "RGE",
+      "red_side_g1": "FNC",
+      "side_selector_g1": "RGE",
+      "mvp_g1": "Odoamne"
+    }
+  ],
+  "pog_Data": [
+    {
+      "rank": "1",
+      "times": "5",
+      "player": "Armut"
+    },
+    {
+      "rank": "1",
+      "times": "5",
+      "player": "Hans sama"
+    },
+    {
+      "rank": "1",
+      "times": "5",
+      "player": "Rekkles"
+    },
+    {
+      "rank": "4",
+      "times": "4",
+      "player": "Crownshot"
+    },
+    {
+      "rank": "4",
+      "times": "4",
+      "player": "Odoamne"
+    },
+    {
+      "rank": "4",
+      "times": "4",
+      "player": "Patrik"
+    },
+    {
+      "rank": "4",
+      "times": "4",
+      "player": "Treatz"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Abbedagge"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "BrokenBlade"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Elyoya"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Jankos"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Larssen"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "MagiFelix"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Mikyx"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Razork"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Selfmade"
+    },
+    {
+      "rank": "8",
+      "times": "3",
+      "player": "Upset"
+    },
+    {
+      "rank": "18",
+      "times": "2",
+      "player": "Bwipo"
+    },
+    {
+      "rank": "18",
+      "times": "2",
+      "player": "Caps"
+    },
+    {
+      "rank": "18",
+      "times": "2",
+      "player": "Jenax"
+    },
+    {
+      "rank": "18",
+      "times": "2",
+      "player": "Kobbe"
+    },
+    {
+      "rank": "18",
+      "times": "2",
+      "player": "Kryze"
+    },
+    {
+      "rank": "18",
+      "times": "2",
+      "player": "Vetheo"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Carzzy"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Comp"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Czekolad"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Gilius"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "HiRit"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Inspired"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Jeskla"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Jezu"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Kaiser"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "LIMIT"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Neon"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Nisqy"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "nukeduck"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Trymbi"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "TynX"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "WhiteKnight"
+    },
+    {
+      "rank": "24",
+      "times": "1",
+      "player": "Wunder"
+    }
+  ],
+  "pow_Data": []
+}
