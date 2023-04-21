@@ -5,7 +5,7 @@ import {
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 
-const leagues = ['LCS', 'LEC', 'LCK', 'LPL', 'PCS', 'VCS', 'CBLOL', 'LJL', 'LLA']
+const leagues = ['LCS', 'LEC', 'LCK', 'LPL', 'PCS', 'VCS', 'LJL']
 const league_and_winners = ['0', '1', '2']
 
 export default function Home() {
