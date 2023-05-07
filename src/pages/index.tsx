@@ -88,7 +88,7 @@ export default function Home() {
 
       <Spacer />
       <Box w="600px">
-        <Link href={selectedLeague + '/all_teams'}>
+        <Link href={selectedLeague}>
           <button className="w-full h-10 bg-gray-300 rounded-md hover:bg-gray-400 focus:outline-none">
             View All Teams In {selectedLeague}
           </button>
