@@ -1,3 +1,6 @@
+import {
+  Button, Grid, GridItem, HStack, Image, Skeleton
+} from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 
@@ -5,16 +8,37 @@ export default function League() {
   const router = useRouter()
   const { league } = router.query
   const [teamNames, setTeamNames] = useState<string[]>([])
+  const [leagueImageURL, setLeagueImageURL] = useState<string>('')
 
   useEffect(() => {
     const fetchLeagueData = async () => {
-      const response = await fetch('/Data/2023_match_data.json')
-      const data = await response.json()
-      const teamData = data.filter((item: any) => item.position === 'team' && item.league === league )
-      const teamNames: string[] = Array.from(new Set(teamData.map((item: any) => item.teamname)))
+      const allData = []
+      for (let year = 2014; year <= 2023; year++) {
+        const response = await fetch(`/Data/${year}_match_data.json`)
+        const data = await response.json()
+        allData.push(...data)
+      }
+      const teamData = allData.filter(
+        (item: any) => item.position === 'team' && item.league === league
+      )
+      const teamNames: string[] = Array.from(
+        new Set(teamData.map((item: any) => item.teamname))
+      )
       setTeamNames(teamNames)
     }
     fetchLeagueData()
+  }, [league])
+
+  useEffect(() => {
+    const fetchLeagueImageURL = async () => {
+      const response = await fetch('/Data/Tier_One_Leagues.json')
+      const data = await response.json()
+      const leagueData = data.find((item: any) => item.League === league)
+      if (leagueData) {
+        setLeagueImageURL(leagueData[`${league}0`])
+      }
+    }
+    fetchLeagueImageURL()
   }, [league])
 
   if (!league) {
@@ -22,13 +46,23 @@ export default function League() {
   }
 
   return (
-    <>
-      <h1>{league}</h1>
-      <div>
-        {teamNames.map((teamName: string) => (
-          <button key={teamName}>{teamName}</button>
-        ))}
-      </div>
-    </>
+    <Grid gap={6}>
+      <GridItem>
+        <HStack>
+          <Image src={leagueImageURL} alt={Array.isArray(league) ? league[0] : league} boxSize="100px" />
+        </HStack>
+      </GridItem>
+      {teamNames.length === 0 ? (
+        <GridItem>
+          <Skeleton height={'600px'} width={'150px'} />
+        </GridItem>
+      ) : (
+        teamNames.map((teamName: string) => (
+          <GridItem key={teamName}>
+            <Button size="sm">{teamName}</Button>
+          </GridItem>
+        ))
+      )}
+    </Grid>
   )
 }
