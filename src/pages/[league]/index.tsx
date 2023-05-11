@@ -1,8 +1,9 @@
 import {
-  Button, Grid, GridItem, HStack, Image, Skeleton
+  Button, Grid, GridItem, Heading,
+  HStack, Image, Skeleton
 } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
 export default function League() {
   const router = useRouter()
@@ -29,6 +30,12 @@ export default function League() {
     fetchLeagueData()
   }, [league])
 
+  const memTeamNames = useMemo(() => {
+    return teamNames
+  }, [teamNames])
+
+
+
   useEffect(() => {
     const fetchLeagueImageURL = async () => {
       const response = await fetch('/Data/Tier_One_Leagues.json')
@@ -50,14 +57,15 @@ export default function League() {
       <GridItem>
         <HStack>
           <Image src={leagueImageURL} alt={Array.isArray(league) ? league[0] : league} boxSize="100px" />
+          <Heading>{league}</Heading>
         </HStack>
       </GridItem>
-      {teamNames.length === 0 ? (
+      {memTeamNames.length === 0 ? (
         <GridItem>
           <Skeleton height={'600px'} width={'150px'} />
         </GridItem>
       ) : (
-        teamNames.map((teamName: string) => (
+        memTeamNames.map((teamName: string) => (
           <GridItem key={teamName}>
             <Button size="sm">{teamName}</Button>
           </GridItem>
