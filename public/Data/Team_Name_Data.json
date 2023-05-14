@@ -1,0 +1,898 @@
+[
+  {
+    "teamname": "Giants Gaming",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Team ROCCAT",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Cloud9",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Gravity",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Origen",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Team Impulse",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Unicorns of Love",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Team Liquid",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Incredible Miracle",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Dark Wolves",
+    "league": "LCK"
+  },
+  {
+    "teamname": "SBENU Korea",
+    "league": "LCK"
+  },
+  {
+    "teamname": "ESC Ever",
+    "league": "LCK"
+  },
+  {
+    "teamname": "INTZ Red",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Santos Dexterity",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "KaBuM! e-Sports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Big Gods",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "KaBuM! Black",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "JAYOB e-Sports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "INTZ",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Vivo Keyd",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "g3nerationX",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "CNB e-Sports Club",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "CJ Entus",
+    "league": "LCK"
+  },
+  {
+    "teamname": "SK Telecom T1",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Kwangdong Freecs",
+    "league": "LCK"
+  },
+  {
+    "teamname": "KT Rolster",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Longzhu Gaming",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Jin Air Green Wings",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Samsung Galaxy",
+    "league": "LCK"
+  },
+  {
+    "teamname": "e-mFire",
+    "league": "LCK"
+  },
+  {
+    "teamname": "ROX Tigers",
+    "league": "LCK"
+  },
+  {
+    "teamname": "paiN Gaming",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Operation Kino e-Sports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "7th heaven",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Unsold Stuff Gaming",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Rascal Jester",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Team BlackEye",
+    "league": "LJL"
+  },
+  {
+    "teamname": "DetonatioN FocusMe",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Rampage",
+    "league": "LJL"
+  },
+  {
+    "teamname": "RED Canids",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Kongdoo Monster",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Overload",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Brave e-Sports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "MVP",
+    "league": "LCK"
+  },
+  {
+    "teamname": "SCARZ",
+    "league": "LJL"
+  },
+  {
+    "teamname": "EDward Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Newbee",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Snake Esports",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Game Talents",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Royal Never Give Up",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Team WE",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Oh My God",
+    "league": "LPL"
+  },
+  {
+    "teamname": "I May",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Saint Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Invictus Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "LGD Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Vici Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "e-Champ Gaming",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Team Genesis",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Young Miracles",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Overdrive",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Royal Club",
+    "league": "LPL"
+  },
+  {
+    "teamname": "unknown team",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Team EnVyUs",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Fnatic",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Splyce",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Immortals",
+    "league": "LCS"
+  },
+  {
+    "teamname": "bbq Olivers",
+    "league": "LCK"
+  },
+  {
+    "teamname": "QG Reapers",
+    "league": "LPL"
+  },
+  {
+    "teamname": "INTZ.Genesis",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "ProGaming Esports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "DetonatioN Rising",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Crest Gaming Act",
+    "league": "LJL"
+  },
+  {
+    "teamname": "DAN Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Ever8 Winners",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Burning Core",
+    "league": "LJL"
+  },
+  {
+    "teamname": "T Show",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Team oNe eSports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "JD Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Suning",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Iron Hawks e-Sports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "V3 Esports",
+    "league": "LJL"
+  },
+  {
+    "teamname": "H2k-Gaming",
+    "league": "LEC"
+  },
+  {
+    "teamname": "FlyQuest",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Dignitas",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Counter Logic Gaming",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Topsports Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Kingzone DragonX",
+    "league": "LCK"
+  },
+  {
+    "teamname": "KSV eSports",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Bilibili Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "FunPlus Phoenix",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Rogue Warriors",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Hall of Fame",
+    "league": "VCS"
+  },
+  {
+    "teamname": "EVOS Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Young Generation",
+    "league": "VCS"
+  },
+  {
+    "teamname": "FTV Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "UTM Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Cherry Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "GAM Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Friends Forever Gaming",
+    "league": "VCS"
+  },
+  {
+    "teamname": "PENTAGRAM",
+    "league": "LJL"
+  },
+  {
+    "teamname": "SCARZ Burning Core",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Flamengo Esports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Griffin",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Ilha da Macacada Gaming",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Hanwha Life Esports",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Gen.G",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Vikings Gaming",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Cube Adonis",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Phong Vũ Buffalo",
+    "league": "VCS"
+  },
+  {
+    "teamname": "BowQen Blackbucks",
+    "league": "LJL"
+  },
+  {
+    "teamname": "AKIHABARA ENCOUNT",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Misfits Gaming",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Echo Fox",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Clutch Gaming",
+    "league": "LCS"
+  },
+  {
+    "teamname": "G2 Esports",
+    "league": "LEC"
+  },
+  {
+    "teamname": "TSM",
+    "league": "LCS"
+  },
+  {
+    "teamname": "FC Schalke 04 Esports",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Team BattleComics",
+    "league": "LCK"
+  },
+  {
+    "teamname": "DWG KIA",
+    "league": "LCK"
+  },
+  {
+    "teamname": "LP Gaming",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Sky Gaming",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Uppercut esports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Redemption eSports Porto Alegre",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "SinoDragon Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Liiv SANDBOX",
+    "league": "LCK"
+  },
+  {
+    "teamname": "CERBERUS Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Victory Five",
+    "league": "LPL"
+  },
+  {
+    "teamname": "SK Gaming",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Excel Esports",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Team Vitality",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Rogue",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Sengoku Gaming",
+    "league": "LJL"
+  },
+  {
+    "teamname": "AXIZ",
+    "league": "LJL"
+  },
+  {
+    "teamname": "100 Thieves",
+    "league": "LCS"
+  },
+  {
+    "teamname": "OpTic Gaming",
+    "league": "LCS"
+  },
+  {
+    "teamname": "Golden Guardians",
+    "league": "LCS"
+  },
+  {
+    "teamname": "VSG",
+    "league": "LCK"
+  },
+  {
+    "teamname": "ES Sharks",
+    "league": "LCK"
+  },
+  {
+    "teamname": "V Gaming Adonis",
+    "league": "VCS"
+  },
+  {
+    "teamname": "QTV Gaming",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Dominus Esports",
+    "league": "LPL"
+  },
+  {
+    "teamname": "LNG Esports",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Top Esports",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Saigon Buffalo",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Team Flash",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Lowkey Esports.Vietnam",
+    "league": "VCS"
+  },
+  {
+    "teamname": "SeolHaeOne Prince",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Team Dynamics",
+    "league": "LCK"
+  },
+  {
+    "teamname": "eStar",
+    "league": "LPL"
+  },
+  {
+    "teamname": "MAD Lions",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Prodigy Esports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "FURIA",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Evil Geniuses",
+    "league": "LCS"
+  },
+  {
+    "teamname": "T1",
+    "league": "LCK"
+  },
+  {
+    "teamname": "DRX",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Fukuoka SoftBank HAWKS gaming",
+    "league": "LJL"
+  },
+  {
+    "teamname": "Team Secret",
+    "league": "VCS"
+  },
+  {
+    "teamname": "ahq eSports Club",
+    "league": "PCS"
+  },
+  {
+    "teamname": "J Team",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Berjaya Dragons",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Resurgence",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Liyab Esports",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Hong Kong Attitude",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Machi Esports",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Talon Esports",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Nova Esports",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Alpha Esports",
+    "league": "PCS"
+  },
+  {
+    "teamname": "SANDBOX Gaming",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Seorabeol Gaming",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Santos e-Sports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "OverPower Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Percent Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "PSG Talon",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Afreeca Freecs",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Impunity",
+    "league": "PCS"
+  },
+  {
+    "teamname": "V Gaming",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Luxury Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "ThunderTalk Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Nongshim RedForce",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Fredit BRION",
+    "league": "LCK"
+  },
+  {
+    "teamname": "Rare Atom",
+    "league": "LPL"
+  },
+  {
+    "teamname": "LOUD",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Rensga eSports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Cruzeiro eSports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Vorax Liberty",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "SBTC Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Burst The Sky Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Astralis",
+    "league": "LEC"
+  },
+  {
+    "teamname": "BOOM Esports",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Beyond Gaming",
+    "league": "PCS"
+  },
+  {
+    "teamname": "MGN Box Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Genius Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Netshoes Miners",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Ultra Prime",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Anyone's Legend",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Weibo Gaming",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Team BDS",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Liberty",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Deep Cross Gaming",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Frank Esports",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Meta Falcon Team",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Hurricane Gaming",
+    "league": "PCS"
+  },
+  {
+    "teamname": "CTBC Flying Oyster",
+    "league": "PCS"
+  },
+  {
+    "teamname": "SEM9",
+    "league": "PCS"
+  },
+  {
+    "teamname": "AS Esports",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Miners",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Flamengo Los Grandes",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Dewish Team",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Team Whales",
+    "league": "VCS"
+  },
+  {
+    "teamname": "Ninjas in Pyjamas",
+    "league": "LPL"
+  },
+  {
+    "teamname": "Dplus KIA",
+    "league": "LCK"
+  },
+  {
+    "teamname": "BRION",
+    "league": "LCK"
+  },
+  {
+    "teamname": "KaBuM! Esports",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "KOI",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Los Grandes",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Fluxo",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "Team Heretics",
+    "league": "LEC"
+  },
+  {
+    "teamname": "Vivo Keyd Stars",
+    "league": "CBLOL"
+  },
+  {
+    "teamname": "FENNEL",
+    "league": "LJL"
+  },
+  {
+    "teamname": "SEM9 WPE",
+    "league": "PCS"
+  },
+  {
+    "teamname": "HELL PIGS",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Chiefs Esports Club",
+    "league": "PCS"
+  },
+  {
+    "teamname": "Team Bliss",
+    "league": "PCS"
+  }
+]
