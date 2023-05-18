@@ -15,61 +15,65 @@ export default function League() {
   const [leagueImageURL, setLeagueImageURL] = useState<string>('')
   const [selectedButton, setSelectedButton] = useState<string>('')
   const svgRef = useRef<SVGSVGElement>(null)
+  const [data, setData] = useState<any[]>([])
 
   const handleButtonClick = (teamName: string) => {
     setSelectedButton(teamName)
   }
 
-
   useEffect(() => {
     const fetchMaxNumericTeamData = async () => {
       const response = await fetch(`/Data/Max_Numeric_Team_Data.json`)
       const data = await response.json()
-      const totalGoldValues = data.map((item: any) => item.totalgold)
-      const totalGold = Math.max(...totalGoldValues)
-      if (svgRef.current) {
-        const margin = {
-          top: 20, right: 20, bottom: 30, left: 50,
-        }
-        const w = 400 - margin.left - margin.right
-        const h = 400 - margin.top - margin.bottom
-        const svg = d3.select(svgRef.current)
-          .attr('width', w + margin.left + margin.right)
-          .attr('height', h + margin.top + margin.bottom)
-          .style('background', '#d3d3d3')
-          .append('g')
-          .attr('transform', `translate(${margin.left},${margin.top})`)
-        const xScale = d3.scaleLinear()
-          .domain([2014, 2023])
-          .range([0, w])
-        const yScale = d3.scaleLinear()
-          .domain([0, totalGold])
-          .range([h, 0])
-          .nice()
-
-        svg.append('g')
-          .attr('transform', `translate(0,${h})`)
-          .call(d3.axisBottom(xScale).tickFormat(d3.format('d')))
-
-        svg.append('g')
-          .call(d3.axisLeft(yScale))
-
-        const years = d3.range(2014, 2024)
-        const generateScaledLine = d3.line()
-          .x((d, i) => xScale(years[i]))
-          .y(d => yScale(d[1]))
-          .curve(d3.curveCardinal)
-
-        svg.selectAll('.line')
-          .data([data])
-          .join('path')
-          .attr('d', d => generateScaledLine(d))
-          .attr('fill', 'none')
-          .attr('stroke', 'black')
-      }
+      setData(data)
     }
     fetchMaxNumericTeamData()
   }, [])
+
+  useEffect(() => {
+    if (data.length > 0 && svgRef.current) {
+      const totalGoldValues = data.map((item: any) => item.totalgold)
+      const totalGold = Math.max(...totalGoldValues)
+      const margin = {
+        top: 20, right: 20, bottom: 30, left: 50,
+      }
+      const w = 400 - margin.left - margin.right
+      const h = 400 - margin.top - margin.bottom
+      const svg = d3.select(svgRef.current)
+        .attr('width', w + margin.left + margin.right)
+        .attr('height', h + margin.top + margin.bottom)
+        .style('background', '#d3d3d3')
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`)
+      const xScale = d3.scaleLinear()
+        .domain([2014, 2023])
+        .range([0, w])
+      const yScale = d3.scaleLinear()
+        .domain([0, totalGold])
+        .range([h, 0])
+        .nice()
+
+      svg.append('g')
+        .attr('transform', `translate(0,${h})`)
+        .call(d3.axisBottom(xScale).tickFormat(d3.format('d')))
+
+      svg.append('g')
+        .call(d3.axisLeft(yScale))
+
+      const years = d3.range(2014, 2024)
+      const generateScaledLine = d3.line()
+        .x((d, i) => xScale(years[i]))
+        .y(d => yScale(d[1]))
+        .curve(d3.curveCardinal)
+
+      svg.selectAll('.line')
+        .data([data])
+        .join('path')
+        .attr('d', d => generateScaledLine(d))
+        .attr('fill', 'none')
+        .attr('stroke', 'black')
+    }
+  }, [data])
 
   useEffect(() => {
     const fetchLeagueData = async () => {
@@ -142,3 +146,4 @@ export default function League() {
     </div>
   )
 }
+
