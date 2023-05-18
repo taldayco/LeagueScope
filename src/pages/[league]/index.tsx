@@ -15,68 +15,97 @@ export default function League() {
   const [leagueImageURL, setLeagueImageURL] = useState<string>('')
   const [selectedButton, setSelectedButton] = useState<string>('')
   const svgRef = useRef<SVGSVGElement>(null)
-  const [data, setData] = useState<any[]>([])
+  const [teamData, setTeamData] = useState<any[]>([])
 
   const handleButtonClick = (teamName: string) => {
     setSelectedButton(teamName)
   }
 
   useEffect(() => {
-    const fetchMaxNumericTeamData = async () => {
-      const response = await fetch(`/Data/Max_Numeric_Team_Data.json`)
+    const fetchDataPoints = async () => {
+      const response = await fetch(`/Data/Team_Data.json`)
       const data = await response.json()
-      setData(data)
+      const teamData = data.reduce((acc: any[], d: { date: string; totalgold: number }) => {
+        const yValue = +d.totalgold
+        if (!isNaN(yValue)) {
+          acc.push({
+            x: new Date(d.date).getFullYear(),
+            y: yValue,
+          })
+        }
+        return acc
+      }, [])
+      setTeamData(teamData)
     }
-    fetchMaxNumericTeamData()
+    fetchDataPoints()
   }, [])
 
   useEffect(() => {
-    if (data.length > 0 && svgRef.current) {
-      const totalGoldValues = data.map((item: any) => item.totalgold)
-      const totalGold = Math.max(...totalGoldValues)
+    if (teamData.length > 0 && svgRef.current) {
+      console.log('teamData:', teamData)
       const margin = {
-        top: 20, right: 20, bottom: 30, left: 50,
+        top: 20,
+        right: 20,
+        bottom: 30,
+        left: 50,
       }
       const w = 400 - margin.left - margin.right
       const h = 400 - margin.top - margin.bottom
-      const svg = d3.select(svgRef.current)
+      const svg = d3
+        .select(svgRef.current)
         .attr('width', w + margin.left + margin.right)
         .attr('height', h + margin.top + margin.bottom)
         .style('background', '#d3d3d3')
         .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`)
-      const xScale = d3.scaleLinear()
-        .domain([2014, 2023])
-        .range([0, w])
-      const yScale = d3.scaleLinear()
-        .domain([0, totalGold])
-        .range([h, 0])
-        .nice()
 
-      svg.append('g')
+      const xExtent = d3.extent(teamData, (d) => {
+        return d.x
+      }) as number[]
+
+      const yExtent = [0, d3.max(teamData, (d) => {
+        return d.y
+      })]
+
+      const xScale = d3.scaleLinear().domain(xExtent).range([0, w])
+
+      console.log(xExtent)
+
+      const yScale = d3.scaleLinear().domain(yExtent).range([h, 0]).nice()
+
+      svg
+        .append('g')
         .attr('transform', `translate(0,${h})`)
         .call(d3.axisBottom(xScale).tickFormat(d3.format('d')))
+      svg.append('g').call(d3.axisLeft(yScale))
 
-      svg.append('g')
-        .call(d3.axisLeft(yScale))
-
-      const years = d3.range(2014, 2024)
-      const generateScaledLine = d3.line()
-        .x((d, i) => xScale(years[i]))
-        .y(d => yScale(d[1]))
+      const generateScaledLine = d3
+        .line<{ x: number; y: number }>()
+        .x((d) => {
+          return xScale(d.x)
+        })
+        .y((d) => {
+          return yScale(d.y)
+        })
         .curve(d3.curveCardinal)
 
-      svg.selectAll('.line')
-        .data([data])
+      svg
+        .selectAll('.line')
+        .data([teamData as { x: number; y: number }[]])
         .join('path')
-        .attr('d', d => generateScaledLine(d))
+        .attr('d', (d) => {
+          const pathData = generateScaledLine(d)
+          return pathData
+        })
         .attr('fill', 'none')
         .attr('stroke', 'black')
+
     }
-  }, [data])
+  }, [teamData])
+
 
   useEffect(() => {
-    const fetchLeagueData = async () => {
+    const fetchTeamNameData = async () => {
       const response = await fetch(`/Data/Team_Name_Data.json`)
       const data = await response.json()
       const teamData = data.filter(
@@ -86,9 +115,8 @@ export default function League() {
         new Set(teamData.map((item: any) => item.teamname))
       )
       setTeamNames(teamNames)
-      console.log(teamNames)
     }
-    fetchLeagueData()
+    fetchTeamNameData()
   }, [league])
 
 
